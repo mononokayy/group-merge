@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Monocraft';
+    src: url(Monocraft.otf);
+} 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Monocraft', monospace;
+    font-size: 20px;
+    background-color: rgb(0, 82, 177);
+}
+
+button {
+    margin: 30px;
+    padding: 20px 30px;
+    background-color: rgb(251 245 243);
+    color: rgb(146 20 12);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(180 180 180);
+    font-family: 'Monocraft';
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 200ms;
+}
+
+button:hover {
+    background-color: rgb(211 205 203);
+}
+
+button:active {
+    background-color: rgb(161 155 153);
+}
